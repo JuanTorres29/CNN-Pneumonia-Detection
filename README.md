@@ -5,9 +5,14 @@ Este proyecto tiene como objetivo entrenar un modelo de aprendizaje profundo, es
 
 ## Estructura del Repositorio
 
-- `CNN_Torax.ipynb`: Contiene el notebook de Python en que fue desarrollado el modelo CNN utilizando TensorFlow y Keras.
+- `modelo_cnn.py`: Contiene la implementación del modelo CNN en Python utilizando TensorFlow y Keras.
 - `Informe_proyecto.pdf`: Documento con el informe detallado del proyecto, incluyendo el análisis de datos, preprocesamiento y resultados.
-- `dataset/`: Carpeta que contiene las imágenes de rayos X utilizadas para el entrenamiento y prueba del modelo.
+- Los datos provienen de [Kaggle - Chest X-Ray Pneumonia Dataset](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia).
+
+## Resultados
+- Precisión del modelo: 92%
+- Recall en detección de neumonía: 96%
+- Reporte de clasificación y matriz de confusión incluidos en el informe.
 
 ## Autores
 - Juan Andrés Contreras
